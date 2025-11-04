@@ -21,5 +21,6 @@ BEGIN
    ELSEIF p > 1.000.000
       diskon = 0.1
    ENDIF
-   OUTPUT("Mendapatkan", diskon)
+   OUTPUT("Mendapatkan diskon =", diskon)
+
 END
