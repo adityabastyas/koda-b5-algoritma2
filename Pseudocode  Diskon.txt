@@ -1,0 +1,25 @@
+Minitask Algoritma 6
+
+Perhitungan besar diskon pada suatu tempat perbelanjaan menerapkan bahwa besar diskon yang didapatkan pembeli akan disesuaikan dengan jumlah pembelian dengan ketentuan:
+
+Tidak ada diskon pada pembelian dibawah 500.000 rupiah
+
+Diskon sebesar 5% bagi pembeli dengan belanja minimum 500.000 rupiah dan maksimum 1 juta rupiah
+
+Pada pembelian diatas 1 juta rupiah, diskon bertambah menjadi 10%
+
+Tuliskan algoritma menggunakan notasi algoritma Pseudocode dari permasalahan diatas!
+
+
+PromoDiskon
+   DECLARE diskon : num
+   DECLARE p : string
+BEGIN
+   INPUT(p)
+   IF p == (500.000 - 1.000.000)
+      diskon = 0.05
+   ELSEIF p > 1.000.000
+      diskon = 0.1
+   ENDIF
+   OUTPUT("Mendapatkan", diskon)
+END
